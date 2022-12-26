@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 150px;
+    background-color: rgba(0, 0, 0, 0.171);
+
+
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: linear-gradient(#820AD1,#820AD1);
+
+    height: 100%;
+
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+
+}
+.login2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    background-color: white;
+    height: 576px;
+    width: 448px;
+    padding: 30px 20px;
+
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+/* 320x 73 entertext button*/
+
+.entertext { 
+    width: 320px;
+    height: 40px;
+
+    border-top: none ;
+    border-right: none;
+    border-left: none;
+
+    border-bottom: 1px dotted orangered;
+
+    outline: none;
+
+}
+
+#clickbutton {
+    width: 323px;
+    height: 70px;
+
+    border-radius: 5px;
+    border: 1px solid rgb(206, 206, 206);
+    color: rgb(206, 206, 206);
+
+    font-size: 0.9em;
+    text-transform: uppercase;
+
+    margin-top: 50px;
+}
+
+.link {
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.forgotlink {
+    
+
+    text-decoration: none;
+    color: #AB4BEA;
+    font-weight: 700;
+    text-align: center;
+    transition: color 0.5s ;
+
+}
+
+.forgotlink:hover {
+    
+
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s ;
+
+}
+
+.forgotlink + .forgotlink {
+    margin-top: 25px;
+}
+
+.orangered {
+    color: orangered;
+    font-size: 1.2em;
+}
+
+
