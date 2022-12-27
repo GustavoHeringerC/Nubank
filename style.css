@@ -9,12 +9,12 @@ h2 {
 }
 
 header {
-    padding: 20px;
-    margin-bottom: 150px;
+    padding: 10px 30px;
+    margin-bottom: 100px;
     background-color: rgba(0, 0, 0, 0.171);
 
 
-    
+
 }
 
 nav {
@@ -53,6 +53,7 @@ body {
     padding: 30px 20px;
 
     border-radius: 10px;
+    box-shadow: 9px -5px 18px -9px rgba(0,0,0,0.20);
 }
 
 .buttons {
@@ -73,6 +74,7 @@ body {
 .entertext { 
     width: 320px;
     height: 40px;
+    font-size: 1.5em;
 
     border-top: none ;
     border-right: none;
@@ -96,6 +98,30 @@ body {
     text-transform: uppercase;
 
     margin-top: 50px;
+
+    cursor: pointer;
+    
+    transition: all 0.3s;
+    
+}
+
+#clickbutton:hover {
+
+    border: 1px solid #820AD1;
+    background-color: #AB4BEA;
+    color: white;
+
+    transition: all 0.3s;
+
+}
+
+#clickbutton:active {
+
+    color: rgb(255, 0, 0);
+    background-color: #820AD1;
+
+    transition: color 10s
+
 }
 
 .link {
@@ -124,7 +150,7 @@ body {
     
 
     text-decoration: none;
-    color: black;
+    color: rgba(0, 0, 0, 0.781);
     transition: color 0.5s ;
 
 }
@@ -138,4 +164,7 @@ body {
     font-size: 1.2em;
 }
 
+label {
+    display: block;
+}
 
